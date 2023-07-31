@@ -8,10 +8,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
-  max-width: 1100px;
+  max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
@@ -68,7 +74,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    }
+        }
 
   .section-header {
     margin: 0;
@@ -188,6 +194,11 @@ body {
    
     }
 
+    .footer-button:hover {
+      color: #975212;
+      box-shadow: inset 0 0 0 3px #ad5308;
+    }
+
     .footer-contacts p {
       margin: 15px 0;
       font-size: 16px;
@@ -203,3 +214,113 @@ body {
       padding-right: 30px;
       
     }
+
+    .string_:hover {
+      background: rgba(0,0,0,0);
+      color: #975212;
+      box-shadow: inset 0 0 0 3px #ad5308;
+    }
+
+   
+
+    @media (max-width: 1140px) {
+       .card {
+        width:  calc(50% - 15px);
+       }
+       .footer {
+        padding-top: 40px;
+        padding-bottom: 60px;
+       }
+
+       .footer-row {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+       }
+
+       .footer-copyright{
+         margin-bottom: 40px;
+       }
+
+       .footer-icons-icons {
+margin-bottom: 30px;
+       }
+
+
+
+    }
+
+    @media (max-width: 760px) {
+      .header-title {
+        font-size: 32px;
+      }
+
+      .header-subtitle {
+        font-size: 14px;
+      }
+
+      .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+      }
+
+      .section-header {
+       font-size: 32px;
+       margin-bottom: 30px; 
+      }
+
+      .portfolio-card-wrapper {
+        justify-content: center;
+      }
+
+      .card {
+      max-width: 530px;
+       width: 100%;
+      }
+     
+      .card:nth-child(2) {
+        margin-bottom: 30px;
+      }
+
+      .card-img {
+        margin-bottom: 10px;
+      }
+
+      .card-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+     .card p {
+      font-size: 14px;
+     }
+
+     .footer-copyright-name {
+      font-size: 18px;
+      margin-bottom: 5px;
+     }
+
+     .footer-copyright p {
+      font-size: 14px;
+     }
+
+     .footer-icons-icons p {
+      font-size: 14px;
+     }
+
+     .footer-contacts p {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+
+  }
+
+
+
+
+
+
+
+
+    
+    
